@@ -1,1 +1,53 @@
-/* Enter your Styles below! */
+body {
+    background-color: black;
+}
+
+.body-index {
+    background-color: #FBB03B;
+}
+
+.games {
+    columns: 2;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family:'minecraftmedium', sans-serif;
+}
+
+
+h1 {
+    color: white;
+    font-size: 72px;
+}
+
+li {
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+.games-columns {
+    columns: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('minecraft-webfont.woff2') format('woff2'),
+        url('minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
