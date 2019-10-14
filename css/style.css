@@ -1,5 +1,9 @@
+
+* {box-sizing: border-box;}
+
 body {
     background-color: black;
+   
 }
 
 .body-index {
@@ -13,7 +17,6 @@ body {
 a {
     text-decoration: none;
     color: white;
-    font-family:'minecraftmedium', sans-serif;
 }
 
 
@@ -22,9 +25,11 @@ h1 {
     font-size: 72px;
 }
 
-li {
-    color: white;
+.tabs {
+    float: right;
 }
+
+
 
 footer {
     color: white;
@@ -35,19 +40,111 @@ footer {
 }
 
 
+p {
+    color: white;
+     font-family: 'minecraftmedium';
+}
+
+.video {
+    margin-left: 1100px;
+}
+
+.header-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.logo-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -130px;
+}
+
+.pacman-intro {
+    padding-right: 500px;
+    padding-left: 510px;
+    padding-top: 15px;
+    line-height: 20pt;
+    font size: 14pt;
+}
+
+h6 {
+    color: white;
+    padding-left: 500px;
+}
+
+.year {
+    color: #FF8304;
+    font-size: 36pt;
+    
+}
+
+
+
+.header {
+  overflow: hidden;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.namco {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: red;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
 
 
 
 
+.date-creator {
+    margin-top: -200px;
+    margin-left: 1250px;
+    margin-right: 180px;
+    margin-bottom: 100px
+}
 
+.creator {
+    font-size: 18pt;
+}
 
-
-
-
-@font-face {
-    font-family: 'minecraftmedium';
-    src: url('minecraft-webfont.woff2') format('woff2'),
-        url('minecraft-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.intro {
+    margin-top: 70px
 }

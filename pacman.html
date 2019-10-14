@@ -1,34 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Pacman</title>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<!-- This is a special css library that overrides all the ugle default css styles that come with html5 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Pacman</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- This is a special css library that overrides all the ugle default css styles that come with html5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-	<!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-	<header>
-		<!-- header, h1, logo etc content -->
-		<h1></h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="pacman.html">GAME 01</a></li>
-			<li><a href="galaga.html">GAME 02</a></li>
-			<li><a href="rallyx.html">GAME 03</a></li>
-            <li><a href="digdug.html">GAME 04</a></li>
-		</ul>
-	</nav>
-	<main>
-        <div class="arcade-machine"></div>
-	<!-- Main content here -->
-	</main>
-	<footer>
-		Andrea Guerra, 2019.
-	</footer>
+    <!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
+    <div class="header">
+        <a href="index.html" class="namco">namco</a>
+        <div class="header-right">
+            <a href="pacman.html">GAME 01</a>
+            <a href="galaga.html">GAME 02</a>
+            <a href="rallyx.html">GAME 03</a>
+            <a href="digdug.html">GAME 04</a>
+        </div>
+
+        <main>
+            <img src="Images/pacman-background.png" alt="pacmanbackground" width=1440px height=252px class="header-center">
+
+            <img src="Images/pacman.png" alt="pacmanlogo" width=569px class="logo-center">
+
+            <div class="intro">
+                <p class="pacman-intro">How to Play: <br> You control Pac-Man as you guide him through the maze and on to victory. Pac-Man's one and only goal is to gobble up every pellet (and power pellet) in the maze. He must avoid contact with the four ghosts, unless they are temporarily afraid of Pac-Man as result of eating one of the four power pellets located in each corner of the maze. Pac-Man moves faster when he's not eating pellets than when he is. He is also capable of turning around corners faster than the ghosts, so make as many turns as possible when the ghosts are on his tail.</p>
+            </div>
+
+            <div class="date-creator">
+                <h1 class="year">1980</h1>
+                <p class="creator">CREATOR: <br> Toru Iwatani</p>
+            </div>
+
+            <div class="video">
+                <iframe width="540" height="295" src="https://www.youtube.com/embed/dScq4P5gn4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <img src="Images/Pacman-Characters/pacman.png">
+            <p>Pacman</p>
+            <img src="Images/Pacman-Characters/blinky.png">
+            <p>Blinky</p>
+            <img src="Images/Pacman-Characters/inky.png">
+            <p>Inky</p>
+            <img src="Images/Pacman-Characters/clyde.png">
+            <p>Clyde</p>
+            <img src="Images/Pacman-Characters/pinky.png">
+            <p>Pinky</p>
+
+
+
+
+        </main>
+        <footer>
+            Andrea Guerra, 2019.
+        </footer>
 </body>
+
 </html>
