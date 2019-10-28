@@ -238,7 +238,7 @@ p {
 
 h1.scoring-pacman-header {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted #FFCC00;
     margin-left: 480px;
     margin-right: 600px;
@@ -251,7 +251,7 @@ h1.scoring-pacman-header {
 
 h1.scoring-digdug-header {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted  #FC5F07;
     margin-left: 480px;
     margin-right: 600px;
@@ -266,7 +266,7 @@ h1.scoring-digdug-header {
 
 h1.scoring-galaga-header {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted #62B992;
     margin-left: 480px;
     margin-right: 600px;
@@ -340,7 +340,7 @@ h1.scoring-galaga-header {
 
 .header-right {
     float: right;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     padding-right: 70px;
 }
 
@@ -375,7 +375,7 @@ h4 {
     font-size: 18pt;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     letter-spacing: 3px
 }
 
@@ -425,7 +425,7 @@ h1 {
 
 h1.how-to-play {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted #FFCC00;
     margin-left: 480px;
     margin-right: 600px;
@@ -438,7 +438,7 @@ h1.how-to-play {
 
 h1.how-to-play-galaga {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted #62B992;
     margin-left: 480px;
     margin-right: 600px;
@@ -451,7 +451,7 @@ h1.how-to-play-galaga {
 
 h1.how-to-play-rallyx {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted #DF0021;
     margin-left: 480px;
     margin-right: 600px;
@@ -465,7 +465,7 @@ h1.how-to-play-rallyx {
 
 h1.how-to-play-digdug {
     font-size: 16pt;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     border: dotted  #FC5F07;
     margin-left: 480px;
     margin-right: 600px;
@@ -649,7 +649,7 @@ digdug {
 
 .start {
     margin-top: 70%;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     font-size: 72pt;
     animation: blinkingText 1.3s infinite;
     margin-left: 180px;
@@ -680,7 +680,7 @@ digdug {
 
 .select {
     color: white;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     font-size: 30px;
     margin-left: 160px;
     margin-right: -60px;
@@ -704,7 +704,7 @@ digdug {
 
 .start-click {
     margin-top: 70%;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     font-size: 72pt;
     margin-left: 180px;
 
@@ -715,7 +715,7 @@ table {
     text-align: center;
     padding: 0px;
     color: white;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     margin-left: 530px;
     width: 500px;
     margin-top: -15px
@@ -725,7 +725,7 @@ table {
     text-align: center;
     padding: 0px;
     color: white;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     margin-left: 500px;
     width: 500px;
     margin-top: -15px
@@ -735,7 +735,7 @@ table {
     text-align: center;
     padding: 0px;
     color: white;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     margin-left: 470px;
     width: 600px;
     margin-top: -15px
@@ -743,7 +743,7 @@ table {
 .digdug-table-2 {
     text-align: center;
     color: white;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     margin-left: 470px;
     width: 600px;
     margin-top: 50px
@@ -771,7 +771,7 @@ tr:nth-child(even) {
 
 
 h2 {
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
 }
 
 h2 span {
@@ -862,7 +862,7 @@ h2 span:nth-child(14) {
     text-align: center;
     padding: 0px;
     color: white;
-    font-family: 'minecraft';
+    font-family: 'minecraftmedium';
     margin-left: 530px;
     width: 500px;
     margin-top: -15px
