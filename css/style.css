@@ -567,7 +567,7 @@ main {
 }
 .date-creator-rallyx {
     padding-top: 0px;
-    margin-top: -800px;
+    margin-top: -750px;
     margin-left: 1150px;
     margin-right: 0px;
     margin-bottom: 100px
@@ -582,7 +582,6 @@ main {
 .start-grid nav {
     background-image: url(../Images/game-console.png);
     background-size: cover;
-    z-index: 1
 }
 
 .fighter {
