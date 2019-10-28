@@ -1,9 +1,46 @@
+/*-------------FONTS--------------*/
 
-* {box-sizing: border-box;}
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('../fonts/minecraft-webfont.woff2') format('woff2'),
+        url('../fonts/minecraft-webfont.woff') format('woff'),
+        url('../fonts/minecraft-webfont.ttf') format('truetype'),
+        url('../fonts/minecraft-webfont.svg#minecraftmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'namco_regularregular';
+    src: url('../fonts/namco__-webfont.woff2') format('woff2'),
+        url('../fonts/namco__-webfont.woff') format('woff'),
+        url('../fonts/namco__-webfont.ttf') format('truetype'),
+        url('../fonts/namco__-webfont.svg#namco_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'krungthepregular';
+    src: url('../fonts/krungthep-webfont.woff2') format('woff2'),
+        url('../fonts/krungthep-webfont.woff') format('woff'),
+        url('../fonts/krungthep-webfont.ttf') format('truetype'),
+        url('../fonts/krungthep-webfont.svg#krungthepregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*---------------------------*/
+
+* {
+    box-sizing: border-box
+}
 
 body {
     background-color: black;
-   
+
 }
 
 .body-index {
@@ -12,6 +49,9 @@ body {
 
 .games {
     columns: 2;
+    margin-top: 550px;
+    margin-left: 200px;
+
 }
 
 a {
@@ -30,11 +70,6 @@ h1 {
 }
 
 
-
-footer {
-    color: white;
-}
-
 .games-columns {
     columns: 2;
 }
@@ -42,11 +77,14 @@ footer {
 
 p {
     color: white;
-     font-family: 'minecraftmedium';
+    font-family: 'minecraftmedium';
+    font-size: 11pt;
+
 }
 
 .video {
-    margin-left: 1100px;
+    margin-left: 1150px;
+    padding-top: 30px;
 }
 
 .header-center {
@@ -65,86 +103,768 @@ p {
     margin-top: -130px;
 }
 
+
+
+
+/*-----------------PACMAN-------------------------*/
 .pacman-intro {
-    padding-right: 500px;
-    padding-left: 510px;
+    margin-right: 555px;
+    margin-left: 480px;
     padding-top: 15px;
     line-height: 20pt;
-    font size: 14pt;
+    font-size: 10pt;
 }
 
-h6 {
-    color: white;
-    padding-left: 500px;
+
+.galaga-intro {
+    margin-right: 555px;
+    margin-left: 480px;
+    padding-top: 15px;
+    line-height: 20pt;
+    font-size: 10pt;
 }
 
-.year {
-    color: #FF8304;
+.rallyx-intro {
+    margin-right: 555px;
+    margin-left: 480px;
+    padding-top: 15px;
+    line-height: 20pt;
+    font-size: 10pt;
+}
+
+.digdug-intro {
+    margin-right: 555px;
+    margin-left: 480px;
+    padding-top: 15px;
+    line-height: 20pt;
+    font-size: 10pt;
+}
+
+.year-pacman {
+    color: #FFCC00;
     font-size: 36pt;
-    
+    margin-left: -10px;
+    margin-top: -250px;
+    font-family: 'krungthepregular';
+    padding-bottom: 20px;
+
 }
 
 
+.year-galaga{
+    color: #62B992;
+    font-size: 36pt;
+    margin-left: -10px;
+    margin-top: -250px;
+    font-family: 'krungthepregular';
+    padding-bottom: 20px;
 
-.header {
-  overflow: hidden;
-  padding: 20px 10px;
 }
 
-.header a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px; 
-  line-height: 25px;
-  border-radius: 4px;
+.year-rallyx{
+    color: #DF0021;
+    font-size: 36pt;
+    margin-left: -10px;
+    margin-top: -250px;
+    font-family: 'krungthepregular';
+    padding-bottom: 20px;
+
 }
 
-.header a.namco {
-  font-size: 25px;
-  font-weight: bold;
+.year-digdug{
+    color: #FC5F07;
+    font-size: 36pt;
+    margin-left: -10px;
+    margin-top: -250px;
+    font-family: 'krungthepregular';
+    padding-bottom: 20px;
+    padding-top: 20px
+
 }
 
-.header a:hover {
-  color: red;
+.creator-pacman {
+    font-size: 18pt;
+    color: #4D2B97;
+    line-height: 35px;
+    margin-left: -5px;
 }
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-.header-right {
-  float: right;
-}
-
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-  }
+.creator-galaga {
+    font-size: 18pt;
+    color: #F4B400;
+    line-height: 35px;
+    margin-left: -5px;
+    margin-right: -50px
 }
 
 
+.creator-rallyx {
+    font-size: 18pt;
+    color: #0072BB;
+    line-height: 35px;
+    margin-left: -5px;
+    margin-right: -50px
+}
 
+.creator-digdug {
+    font-size: 18pt;
+    color: #5B32B7;
+    line-height: 35px;
+    margin-left: -5px;
+    margin-right: -50px
+}
 
-.date-creator {
+.date-creator-pacman {
+    padding-top: 0px;
     margin-top: -200px;
-    margin-left: 1250px;
+    margin-left: 1150px;
     margin-right: 180px;
     margin-bottom: 100px
 }
 
-.creator {
-    font-size: 18pt;
+
+.scoring-pacman {
+    margin-top: -360px;
 }
 
-.intro {
-    margin-top: 70px
+.scoring-digdug {
+    margin-top: -150px;
 }
+
+.scoring-galaga {
+    margin-top: -200px;
+}
+
+h1.scoring-pacman-header {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted #FFCC00;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 3px
+}
+
+h1.scoring-digdug-header {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted  #FC5F07;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 3px
+}
+
+
+
+h1.scoring-galaga-header {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted #62B992;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-bottom: 30px;
+    letter-spacing: 3px
+}
+
+.pacman-scoring-table {
+    margin-right: 540px;
+    margin-left: 480px;
+    padding-top: 15px;
+    line-height: 20pt;
+    font-size: 10pt;
+    letter-spacing: 1pt;
+    color: white;
+}
+
+
+.sidenav-pacman {
+    width: 267px;
+    position: absolute;
+    z-index: -1;
+    top: 360px;
+    left: 100px;
+    background-color: #4D2B97;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset, 0 0 40px #AD2CC4;
+    text-align: center;
+}
+
+
+
+
+/*----------MAIN HEADER--------------------*/
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    text-align: center;
+    padding: 12px 20px;
+    12px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.namco {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'namco_regularregular';
+
+}
+
+.header a:hover {
+    color: red;
+}
+
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header-right {
+    float: right;
+    font-family: 'minecraftmedium';
+    padding-right: 70px;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+
+
+.character-pic {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.character-name {
+    padding-top: 10px;
+    font-family: 'krungthep'
+}
+
+
+h4 {
+    color: white;
+    font-size: 18pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'minecraft';
+    letter-spacing: 3px
+}
+
+
+
+
+
+
+h2 {
+    color: white;
+}
+
+.gameplay {
+    margin-left: 1200px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gameplay-galaga {
+    margin-left: 1200px;
+    margin-top: -300px;
+    text-align: center;
+    margin-bottom: 300px
+}
+
+.gameplay-rallyx {
+    margin-left: 1220px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.gameplay-digdug {
+    margin-left: 1220px;
+    margin-top: -300px;
+    text-align: center;
+    padding-bottom: 300px
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-size: 20px
+}
+
+h1 {
+    margin-left: 100px
+}
+
+h1.how-to-play {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted #FFCC00;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    letter-spacing: 3px;
+    margin-top: 30px
+}
+
+h1.how-to-play-galaga {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted #62B992;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    letter-spacing: 3px;
+    margin-top: 30px
+}
+
+h1.how-to-play-rallyx {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted #DF0021;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    letter-spacing: 3px;
+    margin-top: 50px
+}
+
+
+h1.how-to-play-digdug {
+    font-size: 16pt;
+    font-family: 'minecraft';
+    border: dotted  #FC5F07;
+    margin-left: 480px;
+    margin-right: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    letter-spacing: 3px;
+    margin-top: 50px
+}
+
+
+
+
+main {
+    margin-top: -30px
+}
+
+
+
+/*-------------GALAGA--------------------------*/
+
+.video-galaga {
+    margin-left: 1120px;
+    padding-top: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.video-rallyx {
+    margin-left: 1150px;
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 20px
+}
+
+.video-digdug {
+    margin-left: 1150px;
+    padding-top: 60px;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.sidenav-galaga {
+    width: 267px;
+    position: absolute;
+    z-index: -1;
+    top: 360px;
+    left: 100px;
+    background-color: #F4B400;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset, 0 0 40px #BF762E;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.sidenav-rallyx {
+    width: 267px;
+    position: absolute;
+    z-index: -1;
+    top: 360px;
+    left: 100px;
+    background-color: #0072BB;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset, 0 0 40px #2D4CC1;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sidenav-digdug {
+    width: 267px;
+    position: absolute;
+    z-index: -1;
+    top: 360px;
+    left: 100px;
+    background-color: #1E1464;
+    overflow-x: hidden;
+    padding-top: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3) inset, 0 0 40px #5B32B7;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.date-creator-galaga {
+    padding-top: 0px;
+    margin-top: -400px;
+    margin-left: 1150px;
+    margin-right: 0px;
+    margin-bottom: 100px
+}
+
+.date-creator-digdug {
+    padding-top: 0px;
+    margin-top: -400px;
+    margin-left: 1150px;
+    margin-right: 180px;
+    margin-bottom: 100px
+}
+.date-creator-rallyx {
+    padding-top: 0px;
+    margin-top: -870px;
+    margin-left: 1150px;
+    margin-right: 0px;
+    margin-bottom: 100px
+}
+
+.start-grid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+}
+
+.start-grid nav {
+    background-image: url(../images/game-console.png);
+    background-size: cover;
+}
+
+.fighter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bee {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pooka {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.digdug{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.pooka-ghost {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fygar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fygar-ghost {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.rocks-digdug {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+digdug {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.butterfly {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fighter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.boss-galaga {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.start {
+    margin-top: 70%;
+    font-family: 'minecraft';
+    font-size: 72pt;
+    animation: blinkingText 1.3s infinite;
+    margin-left: 180px;
+
+}
+
+@keyframes blinkingText {
+    0% {
+        color: white;
+    }
+
+    49% {
+        color: white;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    99% {
+        color: transparent;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+.select {
+    color: white;
+    font-family: 'minecraft';
+    font-size: 30px;
+    margin-left: 160px;
+    margin-right: -60px;
+    margin-top: -100px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+
+
+}
+
+.games-column-1 {
+    padding-left: 90px;
+    padding-top: 15px;
+}
+
+.games-column-2 {
+    margin-left: -70px;
+}
+
+
+
+.start-click {
+    margin-top: 70%;
+    font-family: 'minecraft';
+    font-size: 72pt;
+    margin-left: 180px;
+
+}
+
+
+table {
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: 'minecraft';
+    margin-left: 530px;
+    width: 500px;
+    margin-top: -15px
+}
+
+.galaga-table {
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: 'minecraft';
+    margin-left: 500px;
+    width: 500px;
+    margin-top: -15px
+}
+
+.digdug-table {
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: 'minecraft';
+    margin-left: 470px;
+    width: 600px;
+    margin-top: -15px
+}
+.digdug-table-2 {
+    text-align: center;
+    color: white;
+    font-family: 'minecraft';
+    margin-left: 470px;
+    width: 600px;
+    margin-top: 50px
+}
+
+
+
+
+td,
+th {
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: none;
+}
+
+
+
+
+
+
+/*------PLAY NOW ANIMATION-----------------------------------*/
+
+
+h2 {
+    font-family: 'minecraft';
+}
+
+h2 span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    -webkit-animation: bounce 0.3s ease infinite alternate;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+        0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+        0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2 span:nth-child(2) {
+    -webkit-animation-delay: 0.1s;
+}
+
+h2 span:nth-child(3) {
+    -webkit-animation-delay: 0.2s;
+}
+
+h2 span:nth-child(4) {
+    -webkit-animation-delay: 0.3s;
+}
+
+h2 span:nth-child(5) {
+    -webkit-animation-delay: 0.4s;
+}
+
+h2 span:nth-child(6) {
+    -webkit-animation-delay: 0.5s;
+}
+
+h2 span:nth-child(7) {
+    -webkit-animation-delay: 0.6s;
+}
+
+h2 span:nth-child(8) {
+    -webkit-animation-delay: 0.2s;
+}
+
+h2 span:nth-child(9) {
+    -webkit-animation-delay: 0.3s;
+}
+
+h2 span:nth-child(10) {
+    -webkit-animation-delay: 0.4s;
+}
+
+h2 span:nth-child(11) {
+    -webkit-animation-delay: 0.5s;
+}
+
+h2 span:nth-child(12) {
+    -webkit-animation-delay: 0.6s;
+}
+
+h2 span:nth-child(13) {
+    -webkit-animation-delay: 0.7s;
+}
+
+h2 span:nth-child(14) {
+    -webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+    100% {
+        top: -20px;
+        text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+            0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+            0 50px 25px rgba(0, 0, 0, 0.2);
+    }
+
+
+
+.year-galaga {
+     color: white;
+    font-size: 36pt;
+    margin-left: -10px;
+    margin-top: -250px;
+    font-family: 'krungthepregular';
+    padding-bottom: 20px;
+}
+
+.galaga-table {
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: 'minecraft';
+    margin-left: 530px;
+    width: 500px;
+    margin-top: -15px
+}
+
+
