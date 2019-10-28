@@ -45,6 +45,7 @@ body {
 
 .body-index {
     background-color: #FBB03B;
+    font-family: 'minecraft'
 }
 
 .games {
@@ -339,7 +340,7 @@ h1.scoring-galaga-header {
 
 .header-right {
     float: right;
-    font-family: 'minecraftmedium';
+    font-family: 'minecraft';
     padding-right: 70px;
 }
 
