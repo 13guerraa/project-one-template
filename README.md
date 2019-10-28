@@ -25,4 +25,17 @@ This is the template repository for the first major project in the Design 341 cl
 
 
 
+
+
+
+
+
+Bibiliography
+
+“Pac-Man.” Pac-Man - StrategyWiki, the Video Game Walkthrough and Strategy Guide Wiki, https://strategywiki.org/wiki/Pac-Man.
+
+“Rally-X.” Rally-X - StrategyWiki, the Video Game Walkthrough and Strategy Guide Wiki, https://strategywiki.org/wiki/Rally-X.
  
+“Dig Dug.” Dig Dug - StrategyWiki, the Video Game Walkthrough and Strategy Guide Wiki, https://strategywiki.org/wiki/Dig_Dug.
+
+“Galaga.” Galaga - StrategyWiki, the Video Game Walkthrough and Strategy Guide Wiki, https://strategywiki.org/wiki/Galaga.
