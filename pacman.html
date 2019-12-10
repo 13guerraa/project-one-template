@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <audio id="key"> <source src="pacman_chomp.mp3" type="audio/mpeg"></audio>
 </head>
 
 <body>
@@ -17,12 +18,12 @@
     <div class="header">
         <a href="index.html" class="namco">namco</a>
         <div class="header-right">
-            <a href="pacman.html">PAC-MAN</a>
+            <a href="#" class="btn clickme">PAC-MAN</a>
             <a href="galaga.html">GALAGA</a>
             <a href="rallyx.html">RALLY-X</a>
             <a href="digdug.html">DIG DUG</a>
         </div>
-
+        
         <main>
             <img src="Images/pacman-background.png" alt="pacmanbackground" width=1440px height=252px class="header-center">
 
@@ -41,7 +42,7 @@
             <div class="video">
                 <iframe width="390" height="255" src="https://www.youtube.com/embed/dScq4P5gn4A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-       
+
             <div class="gameplay">
                 <h2> <a href="http://www.free80sarcade.com/pacman.php" class="game-link">
                         <span>P</span>
@@ -57,7 +58,7 @@
                     </a>
                 </h2>
             </div>
-            
+
 
             <div class="scoring-pacman">
                 <h1 class="scoring-pacman-header">SCORING</h1>
@@ -88,14 +89,15 @@
                     </tr>
                 </table>
             </div>
-            
-            
+
+
 
             <div class="sidenav-pacman">
                 <div>
                     <h4>CHARACTERS</h4>
                 </div>
                 <div class="character-pic">
+                    
                     <img src="Images/Pacman-Characters/pacman.png" alt="pacman">
                     <p class="character-name">Pacman</p>
                 </div>
@@ -119,10 +121,19 @@
                     <img src="Images/Pacman-Characters/scared-ghost.png" alt="scared ghost">
                     <p class="character-name">Scared Ghost</p>
                 </div>
-                
+
             </div>
 
         </main>
     </div>
-
-</body></html>
+   <audio id="chomp">controls>
+  <source src="pacman_beginning.wav" type="audio/mpeg">
+</audio>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+ 
+</html>
